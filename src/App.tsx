@@ -1,6 +1,8 @@
 import './App.css'
 import Carousel from './components/carousel';
 import Header from './components/header'
+import image1 from './assets/image 1.png'
+import image3 from './assets/image 3.png'
 
 function App() {
 
@@ -9,8 +11,8 @@ function App() {
       <Header />
       <div className='w-full h-[680px] flex'>
         <div className='w-full h-full flex justify-center z-0 relative'>
-          <img src="./assets/image 1.png" alt="image1" className='w-full h-full' />
-          <img src="./assets/image 3.png" alt="image1" className='w-full h-full' />
+          <img src={image1} alt="image1" className='w-full h-full' />
+          <img src={image3} alt="image1" className='w-full h-full' />
           <Carousel />
         </div>
       </div>
