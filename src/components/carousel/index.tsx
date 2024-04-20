@@ -1,19 +1,23 @@
 import { useState } from "react";
+import image1 from './assets/image 1.png'
+import image2 from './assets/image 2.png'
+import image3 from './assets/image 3.png'
+
 
 
 export default function Carousel() {
     const [card, setCard] = useState(0)
 
     const slides = [{
-        "img": "src/assets/image 2.png",
+        "img": image2,
         "alt": "card image"
     },
     {
-        "img": "src/assets/image 3.png",
+        "img": image3,
         "alt": "card image"
     },
     {
-        "img": "src/assets/image 1.png",
+        "img": image1,
         "alt": "card image"
     }
     ]
