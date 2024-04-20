@@ -1,7 +1,8 @@
+import image1 from '../../assets/image 1.png'
+import image2 from '../../assets/image 2.png'
+import image3 from '../../assets/image 3.png'
+
 import { useState } from "react";
-import image1 from './assets/image 1.png'
-import image2 from './assets/image 2.png'
-import image3 from './assets/image 3.png'
 
 
 
