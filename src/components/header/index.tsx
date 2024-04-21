@@ -1,9 +1,12 @@
+import logoSapatellaWhite from '../../assets/logo_ SAPATELLA_branca 1.png'
+import logoSapatellaBlack from '../../assets/logo_SAPATELLA_preto 1.png'
 export default function Header() {
     return (
         <header className="group z-50 fixed top-0 left-0 w-full h-[72px] bg-gradient-to-b from-black from-0% to-100% hover:bg-white hover:to-0%">
             <div className="w-11/12 h-full mx-auto flex items-center justify-between">
                 <div className="flex w-full items-center justify-start gap-6">
-                    <h1 className="text-white group-hover:text-black text-4xl font-medium">sapatella</h1>
+                    <img src={logoSapatellaWhite} alt="logo" className='group-hover:hidden w-[150px] h-[32px]'/>
+                    <img src={logoSapatellaBlack} alt="logo" className='hidden group-hover:block w-[150px] h-[32px]'/>
                     <nav className="flex items-center gap-6">
                         <button className="text-white group-hover:text-black font-normal text-base">Novidades</button>
                         <button className="text-white group-hover:text-black font-normal text-base">Sapatos</button>

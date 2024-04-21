@@ -1,6 +1,4 @@
-import image1 from '../../assets/image 1.png'
 import image2 from '../../assets/image 2.png'
-import image3 from '../../assets/image 3.png'
 
 import { useState } from "react";
 
@@ -14,11 +12,11 @@ export default function Carousel() {
         "alt": "card image"
     },
     {
-        "img": image3,
+        "img": image2,
         "alt": "card image"
     },
     {
-        "img": image1,
+        "img": image2,
         "alt": "card image"
     }
     ]
