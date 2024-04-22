@@ -5,34 +5,40 @@ import image8 from '../assets/image 8.png'
 
 export const favoritesCarouselCards = [{
     "img": image5,
-    "alt": "card image",
-    "name": "Tênis Clean Urbano - Branco"
+    "alt": "Tênis Clean Urbano - Branco",
+    "name": "Tênis Clean Urbano - Branco",
+    "favorited": true
 },
 {
     "img": image6,
-    "alt": "card image",
-    "name": "Sandália Soft Metálizado - Preta"
+    "alt": "Sandália Soft Metálizado - Preta",
+    "name": "Sandália Soft Metálizado - Preta",
+    "favorited": false
 },
 {
     "img": image7,
-    "alt": "card image",
-    "name": "Sapatilha Elegance - Rose"
+    "alt": "Sapatilha Elegance - Rose",
+    "name": "Sapatilha Elegance - Rose",
+    "favorited": false
 },
 {
     "img": image8,
-    "alt": "card image",
-    "name": "Plataforma em Nobuck - Whisky"
+    "alt": "Plataforma em Nobuck - Whisky",
+    "name": "Plataforma em Nobuck - Whisky",
+    "favorited": false
 }
 ]
 
 export const CarouselCards = [{
     "img": image5,
-    "alt": "card image",
-    "name": "Tênis Clean Urbano - Branco"
+    "alt": "Tênis Clean Urbano - Branco",
+    "name": "Tênis Clean Urbano - Branco",
+    "favorited": true
 },
 {
     "img": image6,
-    "alt": "card image",
-    "name": "Sandália Soft Metálizado - Preta"
+    "alt": "Sandália Soft Metálizado - Preta",
+    "name": "Sandália Soft Metálizado - Preta",
+    "favorited": false
 },
 ]
